@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>King Boy FF &#8211; Free Fire Max Tips, Clan &amp; Tournaments</title>
+<style>
+:root{--bg:#f7f3ee;--surface:#ffffff;--ink:#1a1630;--muted:#5b5675;--flame:#d9420b;--gold:#b87a00;--line:#ddd5ca;--onflame:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15122b;--surface:#1f1b3d;--ink:#f4efe8;--muted:#b4aed0;--flame:#ff6a2b;--gold:#ffc43d;--line:#352f61;--onflame:#1a1630}}
+:root[data-theme="dark"]{--bg:#15122b;--surface:#1f1b3d;--ink:#f4efe8;--muted:#b4aed0;--flame:#ff6a2b;--gold:#ffc43d;--line:#352f61;--onflame:#1a1630}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 1.05rem/1.6 Barlow,system-ui,sans-serif}
+h1,h2,h3{font-family:"Russo One",Impact,sans-serif;font-weight:400;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:2px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:56px}
+nav b{font-family:"Russo One",Impact,sans-serif;font-weight:400;font-size:1.2rem;color:var(--flame)}
+nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;overflow-x:auto}
+nav a{text-decoration:none;font-weight:600;white-space:nowrap}
+nav a:hover{color:var(--flame)}
+.hero{padding:72px 0 56px;border-bottom:2px solid var(--line)}
+.hero h1{font-size:clamp(3.4rem,13vw,8rem);letter-spacing:-.02em;color:var(--flame)}
+.hero h1 span{display:block;color:var(--ink);font-size:.34em;letter-spacing:0;margin-top:10px}
+.hero p{max-width:56ch;color:var(--muted);font-size:1.15rem;margin:22px 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border:2px solid var(--flame);border-radius:6px;font-weight:600;text-decoration:none;cursor:pointer;font-family:inherit;font-size:1rem}
+.btn.main{background:var(--flame);color:var(--onflame)}
+.btn:hover{border-color:var(--gold)}
+section{padding:56px 0;border-bottom:2px solid var(--line)}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:8px}
+.sub{color:var(--muted);max-width:60ch;margin:0 0 28px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.stat{border-left:5px solid var(--gold);padding:6px 0 6px 16px}
+.stat strong{display:block;font-family:"Russo One",Impact,sans-serif;font-weight:400;font-size:1.5rem}
+.stat span{color:var(--muted)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.cols h3{font-size:1.2rem;margin-bottom:10px;color:var(--gold)}
+.cols ul{margin:0;padding-left:20px}
+.cols li{margin-bottom:6px}
+details{background:var(--surface);border:2px solid var(--line);border-radius:8px;margin-bottom:10px}
+summary{cursor:pointer;padding:14px 18px;font-weight:600;font-size:1.1rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";color:var(--flame);font-weight:600;font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"\2212"}
+details div{padding:0 18px 16px;color:var(--muted)}
+details ul{margin:8px 0 0;padding-left:20px}
+.event{display:grid;grid-template-columns:96px 1fr;gap:18px;padding:16px 0;border-top:2px solid var(--line)}
+.event:first-of-type{border-top:0}
+.event time{font-family:"Russo One",Impact,sans-serif;color:var(--flame);font-size:1.15rem}
+.event h3{font-size:1.15rem;margin-bottom:4px}
+.event p{margin:0;color:var(--muted)}
+form{display:grid;gap:14px;max-width:560px}
+label{display:grid;gap:5px;font-weight:600}
+input,select{font:inherit;padding:11px 12px;border:2px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink)}
+.msg{min-height:1.5em;color:var(--gold);font-weight:600}
+footer{padding:28px 0;color:var(--muted);text-align:center}
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.vid{display:block;text-decoration:none;background:var(--surface);border:2px solid var(--line);border-radius:8px;overflow:hidden}
+.vid:hover{border-color:var(--flame)}
+.vid .thumb{aspect-ratio:16/9;display:grid;place-items:center;background:var(--flame);color:var(--onflame);font-family:"Russo One",Impact,sans-serif;font-size:2.4rem}
+.vid h3{font-size:1.05rem;padding:14px 16px 4px}
+.vid p{margin:0;padding:0 16px 16px;color:var(--muted)}
+.tbl{overflow-x:auto;border:2px solid var(--line);border-radius:8px}
+table{width:100%;border-collapse:collapse;min-width:420px;background:var(--surface)}
+th,td{text-align:left;padding:12px 16px;border-bottom:2px solid var(--line)}
+th{font-family:"Russo One",Impact,sans-serif;font-weight:400;color:var(--gold)}
+tr:last-child td{border-bottom:0}
+td:first-child{font-family:"Russo One",Impact,sans-serif;color:var(--flame)}
+@media (max-width:560px){.event{grid-template-columns:1fr;gap:4px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>KING BOY FF</b>
+<ul><li><a href="#about">Home</a></li><li><a href="#clan">Clan</a></li><li><a href="#guides">Guides</a></li><li><a href="#videos">Videos</a></li><li><a href="#leaderboard">Leaderboard</a></li><li><a href="#events">Events</a></li><li><a href="#join">Join</a></li></ul></div></nav>
+
+<header class="hero" id="about"><div class="wrap">
+<h1>KING BOY FF<span>Free Fire Max tips, clan &amp; tournaments</span></h1>
+<p>Welcome to the home of King Boy FF! Find pro tips, gameplay videos, clan updates and custom-room tournaments. Whether you&#8217;re pushing rank or just playing for fun, there&#8217;s a spot for you here.</p>
+<div class="btns"><a class="btn main" href="#" id="yt">Watch on YouTube</a><a class="btn" href="#join">Join our clan</a><a class="btn" href="#events">See upcoming events</a></div>
+</div></header>
+
+<section><div class="wrap">
+<h2>Our achievements</h2>
+<p class="sub">Replace these with your real numbers.</p>
+<div class="stats">
+<div class="stat"><strong>[Your rank]</strong><span>Highest BR Ranked tier</span></div>
+<div class="stat"><strong>[Number]</strong><span>Tournament wins and placements</span></div>
+<div class="stat"><strong>[Number]</strong><span>Subscribers and clan members</span></div>
+</div></div></section>
+
+<section id="clan"><div class="wrap">
+<h2>Join the King Boy FF clan</h2>
+<p class="sub">We&#8217;re recruiting active Free Fire Max players who love teamwork and winning. Rank pushers and casual squad players are both welcome.</p>
+<div class="cols">
+<div><h3>What we offer</h3><ul><li>Regular clan wars and custom rooms</li><li>Friendly, active teammates</li><li>Tips and strategy sessions</li><li>Giveaways and events</li></ul></div>
+<div><h3>Requirements</h3><ul><li>Minimum level [XX]</li><li>Active at least [X] days a week</li><li>Respectful and team-focused</li><li>Voice chat on [Discord/WhatsApp]</li></ul></div>
+</div></div></section>
+
+<section id="guides"><div class="wrap">
+<h2>Guides</h2>
+<p class="sub">Master Free Fire Max with tips from King Boy. Tap a topic to open it.</p>
+<details><summary>Beginner basics</summary><div>Controls, HUD setup and the best settings for your device.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+<details><summary>Sensitivity and settings</summary><div>Recommended sensitivity by device type, plus graphics settings for smooth gameplay.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+<details><summary>Characters and pets</summary><div>Best character combos for rushing, sniping and support.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+<details><summary>Weapons guide</summary><div>Best guns by range, with attachments.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+<details><summary>Rank push strategy</summary><div>Landing spots, rotations and zone play.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+<details><summary>Squad tactics</summary><div>Roles, communication and clash squad tips.<ul><li>[Tip 1]</li><li>[Tip 2]</li><li>[Tip 3]</li></ul></div></details>
+</div></section>
+
+<section id="videos"><div class="wrap">
+<h2>Gameplay videos</h2>
+<p class="sub">Watch King Boy&#8217;s latest clips. Each card opens on YouTube.</p>
+<div class="vids">
+<a class="vid" href="#"><div class="thumb">&#9654;</div><h3>[Video title: rank push highlights]</h3><p>[Short description]</p></a>
+<a class="vid" href="#"><div class="thumb">&#9654;</div><h3>[Video title: best sensitivity settings]</h3><p>[Short description]</p></a>
+<a class="vid" href="#"><div class="thumb">&#9654;</div><h3>[Video title: clan war recap]</h3><p>[Short description]</p></a>
+</div></div></section>
+
+<section id="leaderboard"><div class="wrap">
+<h2>Clan leaderboard</h2>
+<p class="sub">Top players this season. Edit the names and scores below.</p>
+<div class="tbl"><table>
+<thead><tr><th>#</th><th>Player</th><th>Kills</th><th>Wins</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>[Player name]</td><td>[0]</td><td>[0]</td></tr>
+<tr><td>2</td><td>[Player name]</td><td>[0]</td><td>[0]</td></tr>
+<tr><td>3</td><td>[Player name]</td><td>[0]</td><td>[0]</td></tr>
+<tr><td>4</td><td>[Player name]</td><td>[0]</td><td>[0]</td></tr>
+<tr><td>5</td><td>[Player name]</td><td>[0]</td><td>[0]</td></tr>
+</tbody></table></div>
+</div></section>
+
+<section id="events"><div class="wrap">
+<h2>Events</h2>
+<p class="sub">Tournaments, custom rooms and giveaways. Edit the dates below.</p>
+<div class="event"><time>[Date]</time><div><h3>Custom room: squad battle</h3><p>[Time] &#183; Room ID shared in the clan group &#183; Prize: [prize]</p></div></div>
+<div class="event"><time>[Date]</time><div><h3>Clan war</h3><p>[Time] &#183; Open to all clan members</p></div></div>
+<div class="event"><time>[Date]</time><div><h3>Giveaway</h3><p>[How to enter]</p></div></div>
+</div></section>
+
+<section id="join"><div class="wrap">
+<h2>Apply to join</h2>
+<p class="sub">Fill this in, then send the copied message to us on [your contact].</p>
+<form id="f">
+<label>In-game name<input name="n" required></label>
+<label>UID<input name="u" inputmode="numeric" required></label>
+<label>Level<input name="l" inputmode="numeric" required></label>
+<label>Rank<select name="r"><option>Bronze</option><option>Silver</option><option>Gold</option><option>Platinum</option><option>Diamond</option><option>Heroic</option><option>Grandmaster</option></select></label>
+<label>Region<input name="g" required></label>
+<label>Preferred play time<input name="t" required></label>
+<button class="btn main" type="submit">Copy my application</button>
+<div class="msg" id="m" role="status"></div>
+</form></div></section>
+
+<footer>&#169; King Boy FF. Not affiliated with Garena.</footer>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+e.preventDefault();
+var d=new FormData(this),m=document.getElementById('m');
+var t='King Boy FF clan application\nName: '+d.get('n')+'\nUID: '+d.get('u')+'\nLevel: '+d.get('l')+'\nRank: '+d.get('r')+'\nRegion: '+d.get('g')+'\nPlay time: '+d.get('t');
+try{navigator.clipboard.writeText(t).then(function(){m.textContent='Copied. Send it to us now.'},function(){m.textContent='Copy failed. Select and copy this: '+t.replace(/\n/g,' | ')})}
+catch(x){m.textContent='Copy failed. Select and copy this: '+t.replace(/\n/g,' | ')}
+});
+</script>
+</body>
+</html>
